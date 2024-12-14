@@ -1,0 +1,128 @@
+body {
+    font-family: Didot, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.disclaimer-box {
+    background-color: lavender;
+    border: 1px solid lavender;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Didot', sans-serif;
+    color: #333;
+}
+
+.disclaimer-box h2 {
+    margin-top: 0;
+    font-size: 2.0rem;
+    color: mediumpurple;
+    text-align: center;
+}
+
+.disclaimer-box p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* The navigation menu */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  font-size: 34px;
+  color: white;
+  text-align: center;
+  padding: 26px 30px;
+  text-decoration: none;
+}
+
+/* The subnavigation menu */
+.subnav {
+  float: left;
+  font-size: 24px;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 34px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 26px 30px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Add a red background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: mediumpurple;
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: mediumpurple;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: black;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+.full-width-header {
+    background-color: mediumpurple; /* med purple background */
+    width: 100%;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow under the header */
+    position: relative; /* Ensure stacking order for elements inside */
+}
+
+.bubble-header {
+    font-size: 3rem;
+    color: #ffffff;
+    background-color: rebeccapurple; /* Dark blue bubble color */
+    border-radius: 30px;
+    padding: 20px 40px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    font-family: 'Didot', sans-serif;
+    position: relative; /* Ensure it is inside the header */
+    z-index: 1; /* Makes sure the bubble header stays above background */
+    text-align: center;
+}
+
+body {
+  background-color: lightblue;
+}
